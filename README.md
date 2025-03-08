@@ -19,8 +19,9 @@
 
 ### Параметры командной строки
 
-- `--extensions=ext1,ext2,... input_path`: Распаковка только файлов с указанными расширениями.
 - `input_path`: Распаковка всех возможных файлов.
+- `--extensions=ext1,ext2,... input_path`: Распаковка только файлов с указанными расширениями.
+
 
 ### Примеры
 
@@ -30,9 +31,9 @@
    ```
 
 2. Распаковка только .zip и .rar файлов:
-```cmd
-extractor_recursive.exe --extensions=zip,rar "C:\path\to\archive"
-```
+   ```cmd
+   extractor_recursive.exe --extensions=zip,rar "C:\path\to\archive"
+   ```
 
 ## Вывод
 После завершения работы программы будут созданы два файла:
