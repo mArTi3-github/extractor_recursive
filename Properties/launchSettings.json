@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "extractor_recursive": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\tmp\\politic_banners_search\\MP-VM-SIEM_distro_27.2.16857.71.tar"
+    }
+  }
+}
