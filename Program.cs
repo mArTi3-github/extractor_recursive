@@ -23,6 +23,7 @@ namespace extractor_recursive
         {
             try
             {
+                //TODO: возможно, стОит добавить режим работы с распаковкой "in place", т.е. без копирования входных данных. Но тогда надо будет реализовыввать нормальный парсинг аргументов (см. https://stackoverflow.com/questions/491595/best-way-to-parse-command-line-arguments-in-c)
                 if (args.Length < 1 || args.Length > 2)
                 {
                     Usage();
