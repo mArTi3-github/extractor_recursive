@@ -36,6 +36,10 @@ extractor_recursive.exe [--extensions=ext1,ext2,...] input_path
    ```cmd
    extractor_recursive.exe --extensions=zip,rar "C:\path\to\archive"
    ```
+3. Распаковка большинства популярных типов архивов:
+   ```cmd
+   extractor_recursive.exe --extensions=tar.gz,tar,tgz,xz,7z,zip,zipx,rar,bz2,iso,cpio,gz,lz4,lzma,apk,dmg,sfx,img,run,deb,rpm,msi "C:\path\to\archive"
+   ```
 
 ## Вывод
 После завершения работы рядом с архивом/папкой, поданной на вход, появится папка `*.extracted`, в которой будут находиться распакованные файлы.
